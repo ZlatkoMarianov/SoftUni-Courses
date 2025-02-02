@@ -1,7 +1,19 @@
-console.log("hello world")
+function solve(str, b) {
 
-let a = 10;
-let b = 2;
+    buff = "";
 
-let result = a + b;
-console.log(result);
+    for (let i = 0; i < b; i++) {
+        buff += str;
+
+    }
+    let a = 5
+
+    let result = Math.pow(a, a);
+
+    console.log(result.toFixed(2));
+    console.log();
+
+    return buff;
+}
+
+console.log(solve("pesho", 4));
